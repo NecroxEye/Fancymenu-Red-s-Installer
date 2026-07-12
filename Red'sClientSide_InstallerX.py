@@ -46,7 +46,7 @@ except Exception:
 # CONFIGURATION
 # ============================================================
 
-CURRENT_VERSION = "1.0.0"
+CURRENT_VERSION = "3.0.1"
 
 VERSION_URL = (
     "https://raw.githubusercontent.com/"
@@ -76,10 +76,7 @@ FANCYMENU_EXTRACT_FOLDER = None
 # FANCYMENU TEMPLATE
 # ============================================================
 
-FANCYMENU_TEMPLATE_URL = (
-    "https://raw.githubusercontent.com/"
-    "NecroxEye/Fancymenu-Red-s-Installer/main/fancymenu.zip"
-)
+FANCYMENU_URL = "https://github.com/NecroxEye/Fancymenu-Red-s-Installer/releases/download/fancymenu/fancymenu.zip"
 
 INSTALL_FANCYMENU_TEMPLATE = False
 
